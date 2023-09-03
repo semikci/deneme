@@ -6,15 +6,16 @@
 /*   By: begencer <begencer@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/02 10:50:30 by begencer          #+#    #+#             */
-/*   Updated: 2023/09/03 15:05:59 by begencer         ###   ########.fr       */
+/*   Updated: 2023/09/03 16:41:17 by begencer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
-#include "rush00.c"
-int main(void)
+
+void	rush(int x, int y);
+
+int	main(void)
 {
-    rush(3,7);
-    return(0);
+	rush(12, 12);
+	return (0);
 }
-    
